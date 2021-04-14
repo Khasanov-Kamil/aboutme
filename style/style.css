@@ -129,7 +129,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px
+  margin-top: 20px;
+}
+.about-img-profil{
+  margin-top: 10px
 }
 .about-img-profil img{
   width: 220px;
@@ -158,6 +161,30 @@ body {
 .about-name-title-en p{
   font-style: italic
 }
+.about-me-info{
+  border-top: 1px solid #E7E8E9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
+.name-b-text,.name-b,.date-b,.date-b-text,.locate-b,.locate-b-text,.grag-b,.grag-b-text{
+  font-size: 15px;
+  width: 50%;
+  padding: 5px 10px 5px 10px ;
+}
+.name-b,.date-b,.locate-b,.grag-b{
+  font-weight: bold 
+}
+.about-name-title-en a,.name-b-text a,.date-b-text a,.locate-b-text a,.grag-b-text a{
+  text-decoration: none ;
+  color: #2075BF
+  
+}
+.grag-b-text{
+  display: flex;
+  align-items: center
+}
+
 
 
 
