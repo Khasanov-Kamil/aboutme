@@ -70,12 +70,9 @@ body {
 }
 
 .main_info{
-
   width: 100%;
   display: flex ;
   justify-content: center ;
-
-
 }
 .info{
   background-color: #FFF;
@@ -215,7 +212,11 @@ body {
   flex-direction: column;
   align-items: center 
 }
-
+@media screen and (min-width: 767px) {
+  .main_info{
+    width: 500px
+  }
+}
 
 
 
