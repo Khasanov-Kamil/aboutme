@@ -12,8 +12,8 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center
+  /* justify-content: center;
+  align-items: center */ 
 }
 .header{
   background-color: #4B4453;
@@ -75,6 +75,7 @@ body {
   width: 100%;
   display: flex ;
   justify-content: center ;
+  margin: 0 auto
 }
 .info{
   background-color: #FFF;
