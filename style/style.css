@@ -12,6 +12,8 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
 .header{
   background-color: #4B4453;
@@ -215,6 +217,11 @@ body {
 @media screen and (min-width: 767px) {
   .main_info{
     width: 500px
+  }
+}
+@media screen and (min-width: 1000px) {
+  .main_info{
+    width: 767px
   }
 }
 
